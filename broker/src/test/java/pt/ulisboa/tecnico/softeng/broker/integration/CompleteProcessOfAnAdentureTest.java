@@ -39,6 +39,12 @@ import pt.ulisboa.tecnico.softeng.tax.domain.Seller;
         - car module sends the invoice to the tax module
     - Broker charges the Client the total amount plus its margin
     - Broker sends invoice to of the total amount plus margin to the tax module.
+
+		Note that the payment process is not fully implemented, neither it is necessary
+		to implement it now, but a payment should actually be a transfer between two accounts.
+		Therefore, the TODO comments show what would be the balance in some of the accounts
+		if the payment process was fully implemented. This implementation, is, however,
+		left for a future development iteration.
  */
 public class CompleteProcessOfAnAdentureTest {
 	// Broker
